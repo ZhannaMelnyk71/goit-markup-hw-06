@@ -558,7 +558,7 @@ body {
 }
 
 .footer-form {
-  margin-left: 93px;
+  margin-left: auto;
 }
 
 .footer-input-container {
@@ -703,6 +703,12 @@ body {
   margin-bottom: 10px;
 }
 
+.textarea-label {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
 .modal-text {
   margin-bottom: 4px;
   font-weight: 400;
@@ -806,6 +812,7 @@ body {
   display: flex;
   margin-bottom: 30px;
   align-items: center;
+  justify-content: center;
 }
 
 .checkbox-link {
